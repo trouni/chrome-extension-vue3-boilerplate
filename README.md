@@ -1,7 +1,5 @@
 # WebExtension Vite Starter
 
-Project forked from (@antfu/vitesse-webext)[https://github.com/antfu/vitesse-webext]
-
 A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template.
 
 <p align="center">
@@ -122,6 +120,8 @@ pnpm build
 And then pack files under `extension`, you can upload `extension.crx` or `extension.xpi` to appropriate extension store.
 
 ## Credits
+
+Project forked from [@antfu/vitesse-webext](https://github.com/antfu/vitesse-webext)
 
 ![](https://user-images.githubusercontent.com/11247099/127029137-6b5ad5db-76c4-4061-86ff-489911a8adfb.png)
 

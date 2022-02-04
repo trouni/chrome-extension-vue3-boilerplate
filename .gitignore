@@ -1,16 +1,35 @@
-.DS_Store
-.idea/
+# Vite
 .vite-ssg-dist
 .vite-ssg-temp
 *.crx
-*.local
-*.log
-*.pem
 *.xpi
-*.zip
-dist
-dist-ssr
 extension/manifest.json
-node_modules
+
 src/auto-imports.d.ts
 src/components.d.ts
+
+.DS_Store
+node_modules
+dist
+dist-ssr
+
+# local files
+*.local
+
+# Log files
+*.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vue Browser Extension Output
+*.pem
+*.pub
+*.zip
+/artifacts
