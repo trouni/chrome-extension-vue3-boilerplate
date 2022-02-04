@@ -1,9 +1,9 @@
 <template>
   <div
-    class="fixed right-0 bottom-0 m-5 z-100 flex font-sans select-none leading-1em"
+    class="flex fixed right-0 bottom-0 z-50 m-5 font-sans leading-none select-none"
   >
     <div
-      class="bg-white text-gray-800 rounded-full shadow w-max h-min"
+      class="w-max h-min text-gray-800 bg-white rounded-full shadow"
       p="x-4 y-2"
       m="y-auto r-2"
       transition="opacity duration-300"
@@ -16,13 +16,13 @@
       bg="teal-600 hover:teal-700"
       @click="toggle()"
     >
-      <pixelarticons-power class="block m-auto text-white text-lg" />
+      <pixelarticons-power class="block m-auto text-lg text-white" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useToggle } from "@vueuse/core";
+import { useToggle } from '@vueuse/core'
 
-const [show, toggle] = useToggle(false);
+const [show, toggle] = useToggle(false)
 </script>
