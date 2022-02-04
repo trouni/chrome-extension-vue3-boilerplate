@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import { sharedConfig } from './vite.config'
-import { r, isDev } from './scripts/utils'
+import { isDev, r } from './scripts/utils'
 import packageJson from './package.json'
 
 // bundling the content script using Vite
