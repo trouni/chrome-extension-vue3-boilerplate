@@ -3,6 +3,7 @@
     "johnsoncodehk.volar",
     "dbaeumer.vscode-eslint",
     "csstools.postcss",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "rvest.vs-code-prettier-eslint"
   ]
 }
